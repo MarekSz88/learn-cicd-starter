@@ -6,7 +6,7 @@ import (
 
 func TestAlwaysPass(t *testing.T) {
 	// This test will always pass
-	if 1 == 1 {
+	if true {
 		// Test passes! No need to do anything
 	} else {
 		t.Error("Math is broken, 1 does not equal 1")
@@ -18,7 +18,7 @@ func TestGetAPIKey(t *testing.T) {
 	// Simple passing test for GetAPIKey
 	t.Run("Simple test", func(t *testing.T) {
 		// Just verify the test framework recognizes this test
-		if 1 == 1 {
+		if true {
 			// Test passes
 		} else {
 			t.Error("This should never fail")
