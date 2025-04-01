@@ -24,7 +24,7 @@ func TestGetAPIKey(t *testing.T) {
 			t.Error("This should never fail")
 		}
 	})
-	
+
 	// Another simple test case
 	t.Run("Another simple test", func(t *testing.T) {
 		// Just another passing test
